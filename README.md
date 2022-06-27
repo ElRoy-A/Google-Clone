@@ -1,2 +1,2 @@
 # Google-Clone
-Clone of Google homepage using CSS
+Practice Project - clone of Google homepage using CSS
