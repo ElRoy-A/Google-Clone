@@ -1,3 +1,4 @@
+/* Set CSS Variables */
 :root {
     --clr-dark: #000000;
     --clr-blue: #2B7DE9;
@@ -7,22 +8,23 @@
     --clr-footer-bg: #F2F2F2;
 }
 
+/* Set default CSS styling */
 html {
     box-sizing: border-box;
     font-size: 10px;
 }
-
 *,*::before,*::after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
+
+/* Navigation Bar styling */
 nav {
     display: flex;
     justify-content: space-between;
@@ -81,7 +83,7 @@ nav a:hover {
 
 
 
-
+/* Google Text styling */
 .google-text {
     display: flex;
     justify-content: center;
@@ -112,8 +114,7 @@ nav a:hover {
 
 
 
-
-
+/* Search Box styling */
 .searchbox-container {
     display: flex;
     justify-content: center;
@@ -132,7 +133,7 @@ nav a:hover {
 
 
 
-
+/* Options boxes styling */
 .options-container {
     display: flex;
     justify-content: center;
@@ -163,6 +164,7 @@ nav a:hover {
 }
 
 
+/* Footer styling */
 footer {
     display: flex;
     justify-content: space-between;
